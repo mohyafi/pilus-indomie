@@ -6,7 +6,10 @@ class Index {
     function getDay(){
         echo hariIndo("MONDAY");
     }
+    function getMonth(){
+        echo tglIndo(date('Y-m-d'), 'LONG');
+    }
 }
 
 $index = new Index();
-$index->getDay();
+$index->getMonth();

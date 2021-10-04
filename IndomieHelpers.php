@@ -266,3 +266,4 @@ function dayDifference2($dateA,$dateB,$inDaysOnly) {
         return $arrDiff;    
     }
 }
+
